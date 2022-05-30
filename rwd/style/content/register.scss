@@ -1,0 +1,101 @@
+.register-content {
+  .register-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+    p {
+      font-family: NotoSansCJKtc-Medium;
+      font-size: 20px;
+      color: #3D1101;
+      margin-top: 5px;
+    }
+  }
+
+  .register-section {
+    width: 620px;
+    height: 316px;
+    margin: 0px auto;
+    border-top: #FF5E45 3px solid;
+    background: #EFE9E7;
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+    padding-top: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h2 {
+      text-align: center;
+      font-family: NotoSansCJKtc-Black;
+      font-size: 18px;
+      color: #3D1101;
+    }
+
+    .register-content-section {
+      padding: 16px 15px 15px 15px;
+      display: flex;
+      justify-content: space-between;
+
+      .left-section {
+        width: 48.3%;
+        font-family: MicrosoftJhengHeiRegular;
+        font-size: 18px;
+        color: #3D1101;
+        line-height: 20px;
+      }
+
+      .right-section {
+        width: 48.3%;
+
+        .input {
+          background: #FFFFFF;
+          border: 1px solid #CCCCCC;
+          box-shadow: inset 0px 1px 0px 0px #ECECEC;
+          border-radius: 3px;
+          margin-top: 3px;
+
+          i {
+            padding: 10px 9px;
+          }
+
+          input {
+            border: none;
+            height: 32px;
+            width: 86%;
+          }
+        }
+
+        p {
+          margin-top: 1px;
+
+          a {
+            text-decoration: none;
+            font-family: MicrosoftJhengHeiRegular;
+            font-size: 14px;
+            color: #FF5E45;
+          }
+        }
+      }
+    }
+
+    .btn {
+      display: flex;
+      justify-content: end;
+      margin-right: 17px;
+      margin-bottom: 15px;
+
+      button {
+        width: 125px;
+        height: 32px;
+        background: #F56C23;
+        border-radius: 3px;
+        border: none;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.login-content {
+  .login-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+    p {
+      font-family: NotoSansCJKtc-Medium;
+      font-size: 20px;
+      color: #3D1101;
+      margin-top: 5px;
+    }
+  }
+
+  .login-section {
+    margin: 35px auto 50px auto;
+    width: 300px;
+    height: 270px;
+    background: #EFE9E7;
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+    border-top: 3px #FF5E45 solid;
+
+    h2 {
+      font-family: NotoSansCJKtc-Black;
+      font-size: 18px;
+      font-weight: 600;
+      color: #3D1101;
+      text-align: center;
+      padding-top: 12px;
+      padding-bottom: 19px;
+    }
+
+    label {
+      margin-left: 15px;
+    }
+
+    .input {
+      background-color: white;
+      margin: 3px 15px 1px 15px;
+
+      i {
+        margin-left: 9px;
+        margin-right: 9px;
+      }
+
+      input {
+        border: 0px;
+        height: 32px;
+        width: 85%;
+      }
+    }
+
+    p a {
+      text-decoration: none;
+      font-family: MicrosoftJhengHeiRegular;
+      font-size: 14px;
+      color: #FF5E45;
+      margin-left: 16px;
+    }
+
+    .btn {
+      display: flex;
+      margin: 30px 15px 15px 15px;
+      justify-content: space-between;
+
+      button {
+        width: 125px;
+        height: 32px;
+        color: white;
+        background-color: #F56C23;
+        border: #F56C23;
+        border-radius: 3px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    }
+  }
+}

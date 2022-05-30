@@ -1,0 +1,59 @@
+.footer {
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 42px 50px 43px;
+
+  .footer-content-1 {
+    display: flex;
+    color: #3D1101;
+
+    h2 {
+      width: 174px;
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-family: MicrosoftJhengHeiRegular;
+      max-width: 299px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .footer-about {
+      margin-right: 21px;
+    }
+
+    .footer-connection {
+      width: 100%x;
+      line-height: 20px;
+
+    }
+  }
+}
+
+.footer-content-2 {
+  display: flex;
+  flex-direction: column;
+
+  .footer-content-2-logo {
+    background-image: url(../../assets/logo_l.svg);
+    background-repeat: no-repeat;
+    width: 245px;
+    height: 49px;
+    background-position: center;
+  }
+
+  .footer-content-2-icon {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+
+    .footer-content-2-icon-item img {
+      height: 36px;
+      margin-left: 12px;
+    }
+  }
+}

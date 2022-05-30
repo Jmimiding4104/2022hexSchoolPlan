@@ -1,0 +1,107 @@
+@media (max-width: 799px) {
+  .home-content .item-course {
+    margin-left: 27px;
+    margin-right: 27px;
+  }
+  .home-content .item-course .item {
+    max-width: 200px;
+  }
+  .home-content .chef-descript .chef-descript-img {
+    margin-left: 10px;
+  }
+  .home-content .chef-descript .chef-descript-text {
+    margin-top: 49px;
+  }
+  .home-content .chef-descript .chef-descript-text p {
+    margin-right: 20px;
+  }
+  .home-content .opinion {
+    padding: 50px 10px;
+  }
+  .home-content .position {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .opinion .opinion-person-course {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .opinion .opinion-person-course .opinion-person-item {
+    margin-bottom: 30px;
+  }
+  .opinion .opinion-person-course .opinion-person-item .opinion-person-course-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 327px) {
+  .home-content .title-bg-title .bg-line-before,
+  .home-content .title-bg-title .bg-line-after {
+    display: none;
+  }
+  .home-content .item-course {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px;
+  }
+  .home-content .item-course .item .item-descript {
+    margin-bottom: 30px;
+  }
+  .home-content .chef-descript {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .home-content .chef-descript .chef-descript-img {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .home-content .chef-descript .chef-descript-text {
+    width: 80%;
+    padding: 0px;
+    margin: 30px;
+  }
+  .home-content .chef-descript .chef-descript-text p {
+    margin-right: 0px;
+  }
+  .home-content .opinion {
+    padding: 50px 10px 27px 10px;
+  }
+  .home-content .opinion h2 {
+    padding: 0px 0px 32px 0px;
+  }
+  .home-content .position {
+    padding-bottom: 50px;
+  }
+  .home-content .position .position-title {
+    padding-top: 42px;
+    padding-bottom: 30px;
+  }
+  .home-content .position .position-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .home-content .position .position-content .position-content-img {
+    width: 100%;
+  }
+  .home-content .position .position-content .position-content-text-course {
+    width: 100%;
+  }
+  .home-content .position .position-content .position-content-text-course .position-content-text {
+    margin: 10px 10px 30px 0px;
+  }
+}
+/*# sourceMappingURL=home-content.css.map */

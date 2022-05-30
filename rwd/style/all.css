@@ -1,0 +1,23 @@
+@import url(./css-reset.css);
+@import url(./header-footer/header.css);
+@import url(./header-footer/footer.css);
+@import url(./content/home-content.css);
+@import url(./content/products-content.css);
+@import url(./content/login-content.css);
+@import url(./content/register.css);
+@import url(./rwd/header-footer/header.css);
+@import url(./rwd/header-footer/footer.css);
+@import url(./rwd/content/home-content.css);
+@import url(./rwd/content/products-content.css);
+.wrap {
+  max-width: 1024px;
+  margin: 0px auto;
+  background-color: #efe9e7;
+}
+
+@media (max-width: 799px) {
+  .wrap {
+    max-width: 799px;
+  }
+}
+/*# sourceMappingURL=all.css.map */

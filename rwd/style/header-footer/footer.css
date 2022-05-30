@@ -1,0 +1,74 @@
+.footer {
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px 42px 50px 43px;
+}
+
+.footer .footer-content-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #3D1101;
+}
+
+.footer .footer-content-1 h2 {
+  width: 174px;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.footer .footer-content-1 p {
+  font-family: MicrosoftJhengHeiRegular;
+  max-width: 299px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer .footer-content-1 .footer-about {
+  margin-right: 21px;
+}
+
+.footer .footer-content-1 .footer-connection {
+  width: 100%x;
+  line-height: 20px;
+}
+
+.footer-content-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-content-2 .footer-content-2-logo {
+  background-image: url(../../assets/logo_l.svg);
+  background-repeat: no-repeat;
+  width: 245px;
+  height: 49px;
+  background-position: center;
+}
+
+.footer-content-2 .footer-content-2-icon {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-top: 15px;
+}
+
+.footer-content-2 .footer-content-2-icon .footer-content-2-icon-item img {
+  height: 36px;
+  margin-left: 12px;
+}
+/*# sourceMappingURL=footer.css.map */
